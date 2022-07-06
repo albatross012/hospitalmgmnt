@@ -61,7 +61,7 @@ public void actionPerformed(ActionEvent e) {
 			JOptionPane.showMessageDialog(null,"Data Added Successfully");
 		} catch (SQLException e1)
 		{ 
-			JOptionPane.showMessageDialog(null, e1);
+			JOptionPane.showMessageDialog(null, "INVALID ENTRY");
 		}
 		if(e.getSource()==b1)
 		{

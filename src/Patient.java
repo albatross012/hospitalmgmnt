@@ -175,7 +175,7 @@ frame1.setSize(1000, 600);
 				JOptionPane.showMessageDialog(null,"Data Added Successfully");
 			} catch (SQLException e1)
 			{ 
-				JOptionPane.showMessageDialog(null, e1);
+				JOptionPane.showMessageDialog(null, "INVALID ENTRY");
 			}
 		}
 		if(e.getSource()==b1)

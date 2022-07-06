@@ -65,7 +65,7 @@ public void actionPerformed(ActionEvent e) {
                 JOptionPane.showMessageDialog(null, "            Login Failed!!! \n incorrect username or password");
             }
         } catch (Exception e1) {
-            JOptionPane.showMessageDialog(null, e1);
+            JOptionPane.showMessageDialog(null, "INVALID ENTRY");
 
         }
 	

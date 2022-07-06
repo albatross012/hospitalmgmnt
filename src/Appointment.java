@@ -11,7 +11,7 @@ JTextField tf1 = new JTextField();
 JTextField tf2 = new JTextField();
 JTextField tf3 = new JTextField();
 JTextField tf4 = new JTextField();
-JButton b=new JButton("SAVE");
+JButton b=new JButton("ENTER");
 JButton b1=new JButton("BACK");
 public Appointmentform() {
 JLabel l1,l2,l3,l4;
